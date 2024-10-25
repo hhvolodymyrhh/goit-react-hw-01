@@ -5,6 +5,7 @@
   border-radius: 10px;
   padding-top: 20px;
   overflow: hidden;
+  margin-bottom: 30px;
 }
 .wrap_img{
   margin: 0 auto;
@@ -12,7 +13,7 @@ width: 600px;
 text-align: center;
 }
 
-img {
+.img_avatar {
   margin: 0 auto;
   width: 512px;
   height: 512px;

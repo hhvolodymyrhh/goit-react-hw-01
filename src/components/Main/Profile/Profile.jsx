@@ -9,7 +9,8 @@ const Profile = (props) => {
   return (
     <div className={clsx(styles.container, styles.container)}>
   <div className={styles.wrap_img}>
-    <img
+        <img
+          className={styles.img_avatar}
       src = {image}
       alt = "User avatar"
     />

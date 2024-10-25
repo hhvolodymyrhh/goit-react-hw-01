@@ -1,0 +1,38 @@
+.wrap_friends{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.item_friends{
+  border: 2px solid #000;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.img_friends{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.p_friends{
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.online {
+  font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+ color: green;
+}
+
+.offline {
+  font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+  color: red;
+}
